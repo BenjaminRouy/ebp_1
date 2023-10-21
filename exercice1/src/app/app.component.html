@@ -1,0 +1,8 @@
+
+
+
+
+<app-saisie-articles (finSaisie)="saisieArticle($event)"></app-saisie-articles>
+<app-saisie-somme (sommeVersee)="saisieSommeClient($event)"></app-saisie-somme>
+
+<app-calcul-rendu [prixTotal]="prixTotalArticles" [sommeClient]="sommeClient"></app-calcul-rendu>
